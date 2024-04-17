@@ -1,0 +1,54 @@
+/* css of Discover Story on Home page */
+.headOfStory {
+    color: green; 
+    font-size: 24px; 
+  }
+  
+  .storyText {
+    /* Add styles for the story text here */
+  }
+  
+  .read-more-btn {
+    background-color: red; 
+    color: white; /* Set font color to white */
+    border-radius: 5px; /* Set border radius to make it somewhat rounder */
+    padding: 10px 20px; /* Add padding for better appearance */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  .read-more-btn:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #7797b2; /* Change the background color as needed */
+    padding: 10px;
+    text-align: center;
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adjust the gap between sections as needed */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+    align-items: center; /* Align items vertically */
+}
+
+  }
+
+  .horizontal-section {
+    display: flex;
+    gap: 20px; /* Adjust the gap between elements within the section as needed */
+  }
+
+  .vertical-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap between elements within the section as needed */
+  }
+  
+  

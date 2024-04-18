@@ -1,1 +1,1 @@
-# React_p
+# The Indian Pallette

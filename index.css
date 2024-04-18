@@ -1,6 +1,8 @@
 /* css of Discover Story on Home page */
 .homePage {
   background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .headOfStory {
@@ -97,4 +99,10 @@ footer {
 
 .reservation{
     padding-top: 40px;
+}
+
+.scroll{
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-right: 70px
 }

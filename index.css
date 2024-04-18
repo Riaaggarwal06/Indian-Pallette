@@ -175,3 +175,13 @@ footer {
   border-width: 5px;
   padding: 50px 20px;
 }
+
+.menuBody{
+  margin-top:100px;
+  display: flex;
+  flex-direction:column
+}
+.menuContent,.pics{
+  display: flex;
+  margin: 20px;
+}

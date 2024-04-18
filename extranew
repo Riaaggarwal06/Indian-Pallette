@@ -1,0 +1,73 @@
+.menucontainer{
+  margin-top: 100px;
+  /* padding: 100px; */
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: aqua;
+}
+.menuBody{
+  margin: auto;
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: ;;
+  width:500px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.menuContent,.pics{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 100px;
+  border: solid;
+  border-color: maroon;
+  border-width: 1px;
+  
+}
+.menuContent{
+  flex-grow: 1;
+}
+.pics{
+  align-items: flex-end;
+  border: solid;
+  border-color: blue;
+  border-width: 1px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  height: 70px;
+  width: 70px;
+}
+.itemName,.prices{
+  margin:4px;
+  padding: 2px;
+
+}
+
+<div class="menucontainer">
+  <div class="menuBody">
+
+    <div class="menuContent">
+
+      <div class="itemName">
+        name
+      </div>
+      <div class="prices">
+        price
+      </div>
+
+    </div> <!--end of menuContent -->
+
+    <div class="pics">
+      pic
+    </div>
+
+  </div>
+</div>
+
+
+<!-- menu end -->

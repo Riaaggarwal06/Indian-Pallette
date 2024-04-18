@@ -1,0 +1,88 @@
+ <!-- ========================
+       page title 
+    =========================== -->
+    <section class="page-title page-title-layout1 text-center bg-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h1 class="pagetitle__heading">Contact Us</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+              </ol>
+            </nav>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- ==========================
+        contact 1
+    =========================== -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Our Addresses</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li> 34
+                        Karl Marx Sarani, Kidderpore, Kolkata</li>
+                  </ul>
+                </div><!-- /.contact-box -->
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Follow Us</h6>
+                  <ul class="social__icons">
+                    <li> Fb </li>
+                    <li> Insta</li>
+                  </ul><!-- /.social__icons -->
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-6 -->
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Email Id:</h6>
+                    info@indiarestaurant.in
+                </div><!-- /.contact-box -->
+
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Call Us Now</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li> +91 8481848484</li>
+                    <li> +91 8420533005</li>
+                  </ul>
+
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-6 -->
+
+            </div><!-- /.row -->
+          </div><!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="reservation__banner mt-0" >
+              <div class="reservation__banner-inner">
+                <h5 class="reservation__banner-inner-title">Opening Times</h5>
+                <ul class="list-unstyled">
+                  <li><span>Mon:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Tue:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Wed:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Thu:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Fri:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Sat:</span><span> 11:00 AM - 11:00 PM</span></li>
+                  <li><span>Sun:</span><span> 11:00 AM - 11:00 PM</span></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.contact 1 -->
+
+
+    
+  </div><!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+

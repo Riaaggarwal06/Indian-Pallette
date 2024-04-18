@@ -8,27 +8,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-        .jumbotron {
-      background-color: #f8f9fa;
-    }
-
-    .about-section {
-      padding: 50px 0;
-    }
-
-    .about-img {
-      border-radius: 50%;
-      max-width: 300px;
-    }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="homePage">
-        <!-- navbar starts-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- navbar starts-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">The Indian Pallette</a>
+          <a class="navbar-brand" href="./index.html">The Indian Pallette</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,16 +30,30 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About</a>
+                <a class="nav-link" aria-current="page" href="./about.html"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Reservation</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./reservation.html"
+                  >Reservation</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Menu</a>
+                <a class="nav-link" aria-current="page" href="./menu.html"
+                  >Menu</a
+                >
               </li>
             </ul>
           </div>
@@ -60,214 +61,295 @@
       </nav>
       <!-- navbar ends -->
 
-    <!-- Scrollbar for images -->
-    <div id="carouselExample" class="carousel slide">
+      <!-- Scrollbar for images -->
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block" style="width: 100%; height:90%;" alt="...">
+            <img
+              src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+              class="d-block"
+              style="width: 100%; height: 90%"
+              alt="..."
+            />
           </div>
           <div class="carousel-item">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block" style="width: 100%; height:90%;" alt="...">
+            <img
+              src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+              class="d-block"
+              style="width: 100%; height: 90%"
+              alt="..."
+            />
           </div>
           <div class="carousel-item">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block" style="width: 100%; height:90%;" alt="...">
+            <img
+              src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+              class="d-block"
+              style="width: 100%; height: 90%"
+              alt="..."
+            />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <!-- Scrollbar for images end-->
-<br>
-<br>
-<br>
-<br>
+      <!-- Scrollbar for images end-->
+      <br />
+      <br />
+      <br />
+      <br />
 
-    <!-- Featured Menu -->
-    
-<div id="carouselFeaturedMenu" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-          <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-          <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-          <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
+      <!-- Featured Menu -->
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <h3 class="mb-4 featured-menu">
+            <div class="featured-menu">
+                <span class="feat">F</span>eatured <br>
+                <span class="menu">Menu</span>
+            </div>
+        </h3>
+          <p class="description">Taste the best of our elaborate spread that has been our customer’s favorite made with
+            only the best and the freshest ingredients.</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
+      <div id="carouselFeaturedMenu" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-right: 150px; margin-left: 150px"
+            >
+              <img
+                src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg"
+                class="d-block mx-1"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+              <img
+                src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg"
+                class="d-block mx-3"
+                style="width: 30%; height: 200px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Add more carousel items as needed -->
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselFeaturedMenu"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselFeaturedMenu"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-        </div>
+      <!-- Featured Menu ends -->
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- discover our story section -->
+      <div class="story">
+        <p class="headOfStory">Discover our Story</p>
+        <p class="storyText">
+          Sagar Ratna started its first branch in the Defence Colony Market in
+          1986. The authentic South Indian delicacies, cooked fresh many times a
+          day, worked well to increase the popularity of Sagar Ratna immensely.
+          Within a short span it spread its wings far and wide. Today Sagar
+          Ratna has established its presence in the National Capital Region
+          (NCR) through company owned branches and beyond NCR through franchise
+          outlets.Having won numerous awards in the Hospitality industry in
+          various categories over the years, Sagar Ratna continues to delight
+          its customers with its authentic South Indian food cooked fresh many
+          times a day.
+        </p>
+        <button class="read-more-btn">Read More</button>
       </div>
-      <div class="carousel-item">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="d-flex justify-content-between align-items-center" style="margin-right:150px; margin-left:150px">
-            <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-            <img src="https://t4.ftcdn.net/jpg/06/16/96/49/360_F_616964900_myLbuLo8ppt1qR46TI8CPT0GrsC84UQp.jpg" class="d-block mx-1" style="width: 30%; height:200px" alt="...">
-            <img src="https://png.pngtree.com/background/20230321/original/pngtree-tasty-masala-dosa-picture-image_2153675.jpg" class="d-block mx-3" style="width: 30%; height:200px" alt="...">
-        </div>
-      </div>
-      <!-- Add more carousel items as needed -->
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeaturedMenu" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselFeaturedMenu" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- Featured Menu ends -->
-<br>
-<br>
-<br>
-<br>
-<!-- discover our story section -->
-<div class="story">
-    <p class="headOfStory">Discover our Story</p>
-    <p class="storyText">
-      Sagar Ratna started its first branch in the Defence Colony Market in
-      1986. The authentic South Indian delicacies, cooked fresh many times a
-      day, worked well to increase the popularity of Sagar Ratna immensely.
-      Within a short span it spread its wings far and wide. Today Sagar
-      Ratna has established its presence in the National Capital Region
-      (NCR) through company owned branches and beyond NCR through franchise
-      outlets.Having won numerous awards in the Hospitality industry in
-      various categories over the years, Sagar Ratna continues to delight
-      its customers with its authentic South Indian food cooked fresh many
-      times a day.
-    </p>
-    <button class="read-more-btn">Read More</button>
-  </div>
-</div>     
-
-<!-- Reservation -->
-<div class="container mt-5">
-    <h1 class="mb-4 text-center">Reservation Form</h1>
-    <form>
-      <div class="mb-3 row">
-        <label for="name" class="col-sm-2 col-form-label">Name</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="phone" class="col-sm-2 col-form-label">Phone Number</label>
-        <div class="col-sm-10">
-          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="date" class="col-sm-2 col-form-label">Date</label>
-        <div class="col-sm-10">
-          <input type="date" class="form-control" id="date">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="time" class="col-sm-2 col-form-label">Time</label>
-        <div class="col-sm-10">
-          <input type="time" class="form-control" id="time">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="numberOfPeople" class="col-sm-2 col-form-label">Number of People</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" id="numberOfPeople" min="1">
-        </div>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="btn btn-primary">Book</button>
-      </div>
-    </form>
-  </div>
-<!-- Reservation ends -->
-
-<!-- About Us -->
-<div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4">About Us</h1>
-      <p class="lead">We are a company dedicated to providing high-quality products and services to our customers.</p>
-    </div>
-  </div>
-
-  <!-- About Section -->
-<div class="container about-section">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg" alt="Company Image" class="img-fluid about-img">
-      </div>
-      <div class="col-md-6">
-        <h2>Our Story</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at purus in magna consectetur placerat
-          sed non metus. Donec hendrerit aliquet quam, at malesuada lorem fermentum non. Nulla facilisi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at purus in magna consectetur placerat
-          sed non metus. Donec hendrerit aliquet quam, at malesuada lorem fermentum non. Nulla facilisi.</p>
-      </div>
-    </div>
-  </div> 
-
-  <!-- About Us ends -->
-  </head>
-
-   
-      
-      
     <!-- end of div for contents of home page -->
 
     <!-- footer of page start -->
-    <footer >
+    <footer>
       <div class="footerContent">
         <div class="horizontal-section">
-          <div>Our Company</div>
-          <div>About Us</div>
-          <div>Contact Us</div>
+          <div class="headings">Our Company</div>
+          <div class="vertical-section"><a href="./about.html">About Us</a></div>
+          <div class="vertical-section"><a href="./contactus.html">Contact Us</a></div>
         </div>
         <div class="horizontal-section">
-          <div>Order</div>
-          <div>Reservation</div>
-          <div>Menu</div>
+          <div class="headings">Order</div>
+          <div class="vertical-section"><a href="./reservation.html">Reservation</a></div>
+          <div class="vertical-section"><a href="./menu.html">Menu</a></div>
         </div>
         <div class="horizontal-section">
-          <div>Contact Us</div>
-          <div>Contact Info</div>
+          <div class="headings">Contact Us</div>
+          <div class="vertical-section"><a href="./contactus.html">Contact Info</a></div>
         </div>
         <div class="horizontal-section">
-          <div>Follow Us</div>
-          <div>Insta</div>
-          <div>Facebook</div>
+          <div class="headings">Follow Us</div>
+          <div class="vertical-section">Insta</div>
+          <div class="vertical-section">Facebook</div>
         </div>
       </div>
-      
     </footer>
-
+    <!-- footer ends -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

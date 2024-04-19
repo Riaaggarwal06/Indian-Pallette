@@ -155,9 +155,7 @@ footer {
   border: solid;
   border-color: black;
   border-width: 1px;
-  margin:20px;
-  margin-top: 80px;
-  margin-bottom: 200px;
+  margin: 120px 250px;
   padding: 20px;
   /* align-items: flex-start; */
   align-content: center;
@@ -172,7 +170,7 @@ footer {
   align-items: center;
   height: 40px;
   width: 100%;
-  background-color: aliceblue ;
+  background-color: rgb(219, 246, 251) ;
 }
 .menucontainer{
   display: flex;
@@ -224,5 +222,13 @@ footer {
 .itemName,.prices{
   margin:4px;
   padding: 2px;
+}
 
+.foodpic{
+  display: block;
+  max-width: 100%;
+  max-height: fit-content;
+  height: 70px;
+  width: 70px;
+  vertical-align: middle;
 }

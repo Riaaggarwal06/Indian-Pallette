@@ -303,6 +303,9 @@ footer {
   background-color: #f8f9fa; /* Change background color on hover */
 }
 
+.quantity{
+  padding: 10px;
+}
 .billDetails{
   display: flex;
   color: whitesmoke;

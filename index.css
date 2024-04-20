@@ -246,10 +246,6 @@ footer {
   margin: 5px;
   margin-left: 0px;
   width: 100px;
-  /* border: solid;
-  border-color: maroon;
-  border-width: 1px; */
-  /* padding:0px; */
 }
 .menuContent {
   display: flex;
@@ -281,7 +277,6 @@ footer {
   max-height: fit-content;
   height: 70px;
   width: 70px;
-  vertical-align: middle;
 }
 
 .menuPage {
@@ -381,15 +376,15 @@ footer {
   text-align: center;
 }
 
-/* #totalBill {
-  margin-left: auto; /* Align to the right */
-  /* background-color: blue;
-  margin-top: auto; /* Push to the bottom */
-  /* margin-bottom: 10px; */
-  /* align-self: flex-end; /* Align at the end of the container */
-  /* justify-content: end; */
-  /* vertical-align: end; 
-} */ 
+#totalBill {
+  margin-left: auto; /* Align to the right*/
+  background-color: blue;
+  margin-top: auto; /* Push to the bottom*/
+  margin-bottom: 10px;
+  align-self: flex-end; /* Align at the end of the container*/
+  justify-content: end;
+  vertical-align: end; 
+} 
 
 
 .billDetails {

@@ -190,9 +190,7 @@ footer {
   display: flex;
   flex-direction: column;
   border: 5px solid black;
-  margin: 120px 300px;
   padding: 20px;
-  /* align-items: flex-start; */
   align-content: center;
   justify-content: center;
   background-color: rgb(129, 176, 184);
@@ -263,9 +261,7 @@ footer {
 }
 .pics img {
   align-items: flex-end;
-  /* border: solid;
-  border-color: blue;
-  border-width: 1px; */
+  
   align-items: center;
   text-align: center;
   align-content: center;
@@ -292,6 +288,7 @@ footer {
 .menuPage {
   position: relative;
   background-image: url("https://static.vecteezy.com/system/resources/previews/006/823/934/original/set-icons-with-foods-doodle-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-free-vector.jpg");
+  
 }
 
 .menuPage::before {
@@ -341,6 +338,61 @@ footer {
 .quantity {
   padding: 10px;
 }
+
+
+
+ 
+ .fullmenu{
+  display:flex;
+  flex-direction: row;
+  /* justify-content: left; */
+ }
+
+ .food{
+  margin-left: 40px;
+  margin-top: 120px;
+  width: 800px;
+ }
+
+
+
+
+.billDetails {
+  color: black;
+  width: 35%;
+  background-color: white;
+  margin-top: 120px;
+  max-height: 600px; /* Change height to max-height */
+  margin-left: 900px;
+  margin-right: 30px;
+  position: fixed;
+  border: 5px solid black;
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  height:700px;
+}
+
+#orderSummary {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold; 
+  text-transform: uppercase; 
+  font-size: 80px;
+  margin-bottom: 20px; /* Add margin between order summary and total bill */
+  text-align: center;
+}
+
+/* #totalBill {
+  margin-left: auto; /* Align to the right */
+  /* background-color: blue;
+  margin-top: auto; /* Push to the bottom */
+  /* margin-bottom: 10px; */
+  /* align-self: flex-end; /* Align at the end of the container */
+  /* justify-content: end; */
+  /* vertical-align: end; 
+} */ 
+
+
 .billDetails {
   display: flex;
   color: whitesmoke;

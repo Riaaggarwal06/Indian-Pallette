@@ -302,3 +302,8 @@ footer {
 .dropdown-item:hover {
   background-color: #f8f9fa; /* Change background color on hover */
 }
+
+.billDetails{
+  display: flex;
+  color: whitesmoke;
+ }

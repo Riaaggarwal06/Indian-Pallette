@@ -60,10 +60,26 @@ footer {
 }
 
 .jumbotron {
-  background-color: #f8f9fa;
   padding-top: 60px;
 }
 
+.aboutPage {
+  background-image: url("https://images3.alphacoders.com/134/1347726.png");
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+}
+
+.aboutPage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: -1;
+}
 .about-section {
   padding: 50px 0;
 }
@@ -73,21 +89,21 @@ footer {
   max-width: 250px;
 }
 
-.display-4{
+.display-4 {
   font-weight: bold;
   font-size: 40px;
 }
-.row{
-  margin: 20px;  
+.row {
+  margin: 20px;
 }
 
-.storyTitle{
+.storyTitle {
   display: flex;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 
@@ -116,46 +132,48 @@ footer {
   color: #555;
 }
 
-.reservation{
-    padding-top: 40px;
+.reservation {
+  padding-top: 40px;
 }
 
-.scroll{
-    padding-left: 70px;
-    padding-top: 100px;
-    padding-right: 70px
+.scroll {
+  padding-left: 70px;
+  padding-top: 100px;
+  padding-right: 70px;
 }
 
- .container_contact {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    /* padding: 30px 20px; Removed redundant padding values */
-    justify-content: center;
-    align-items: center; /*Added alignment to center*/
-    /* margin-left: 30px; */
+.container_contact {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 30px 20px; Removed redundant padding values */
+  justify-content: center;
+  align-items: center; /*Added alignment to center*/
+  /* margin-left: 30px; */
 }
 
 .ver_box1 {
-    display: flex;
-    flex-direction: row;
-    padding: 30px 20px; 
-    align-items: center;
-    margin-right:30px;
-    margin-left:30px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 20px;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-.ver_box11,.ver_box12,.ver_box13{
-    padding: 20px 30px;
-    margin:40 px;
+.ver_box11,
+.ver_box12,
+.ver_box13 {
+  padding: 20px 30px;
+  margin: 40 px;
 }
 
-.ourinfo{
+.ourinfo {
   margin: 10px;
   margin-bottom: 40 px;
 }
 
-.ver_box13{
+.ver_box13 {
   margin-left: 30px;
   background-color: rgb(40, 29, 45);
   color: azure;
@@ -167,8 +185,7 @@ footer {
   padding: 50px 20px;
 }
 
-
-.foodType{
+.foodType {
   display: flex;
   flex-direction: column;
   border: 5px solid black;
@@ -177,8 +194,7 @@ footer {
   /* align-items: flex-start; */
   align-content: center;
   justify-content: center;
-  background-color:rgb(129, 176, 184);
-
+  background-color: rgb(129, 176, 184);
 }
 .foodTypeTitle {
   display: flex;
@@ -187,15 +203,15 @@ footer {
   height: 40px;
   width: 100%;
   background-color: rgb(206, 218, 223); /* Green background color */
-  color: #184D47; /* White text color */
+  color: #184d47; /* White text color */
   padding: 10px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: bold; /* Bold font weight */
   text-transform: uppercase; /* Uppercase text */
   margin-bottom: 20px; /* Add margin to separate from other elements */
   font-size: 40px;
 }
-.menucontainer{
+.menucontainer {
   display: flex;
   flex-direction: column;
   /* border: solid;
@@ -205,27 +221,28 @@ footer {
   width: 100%;
   align-self: center;
 }
-.menuBody{
+.menuBody {
   margin: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  width:auto;
+  width: auto;
   /* border: 5px solid black; */
-  background-color: black; 
+  background-color: black;
   color: white;
   height: 100px;
   font-size: 25px;
-  padding:0px;
+  padding: 0px;
   margin-left: 0px;
   transition: box-shadow 0.3s ease;
 }
 
 .menuBody:hover {
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
 }
-.menuContent,.pics{
+.menuContent,
+.pics {
   display: flex;
   flex-direction: column;
   margin: 5px;
@@ -235,16 +252,15 @@ footer {
   border-color: maroon;
   border-width: 1px; */
   /* padding:0px; */
-  
 }
-.menuContent{
+.menuContent {
   display: flex;
-  flex-grow: 1; 
+  flex-grow: 1;
   justify-content: center;
   flex-direction: row;
   padding: 10px;
 }
-.pics img{
+.pics img {
   align-items: flex-end;
   /* border: solid;
   border-color: blue;
@@ -257,13 +273,13 @@ footer {
   /* margin-right: 20px; */
 }
 
-
-.itemName,.prices{
-  margin:4px;
+.itemName,
+.prices {
+  margin: 4px;
   padding: 2px;
 }
 
-.foodpic{
+.foodpic {
   display: block;
   max-width: 100%;
   max-height: fit-content;
@@ -275,7 +291,6 @@ footer {
 .menuPage {
   position: relative;
   background-image: url("https://static.vecteezy.com/system/resources/previews/006/823/934/original/set-icons-with-foods-doodle-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-free-vector.jpg");
-
 }
 
 .menuPage::before {
@@ -289,12 +304,12 @@ footer {
   z-index: -1;
 }
 
-.itemName{
+.itemName {
   margin-right: 10px;
   vertical-align: center;
 }
 
-.prices{
+.prices {
   margin-left: auto;
 }
 
@@ -322,10 +337,10 @@ footer {
   background-color: #f8f9fa; /* Change background color on hover */
 }
 
-.quantity{
+.quantity {
   padding: 10px;
 }
-.billDetails{
+.billDetails {
   display: flex;
   color: whitesmoke;
- }
+}

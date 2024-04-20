@@ -370,24 +370,45 @@ footer {
 #orderSummary {
   font-family: 'Cormorant Garamond', serif;
   font-weight: bold; 
-  text-transform: uppercase; 
-  font-size: 80px;
+  /* text-transform: uppercase;  */
+  font-size: 20px;
   margin-bottom: 20px; /* Add margin between order summary and total bill */
   text-align: center;
+  color: black;
 }
 
 #totalBill {
+  display: flex;
   margin-left: auto; /* Align to the right*/
   background-color: blue;
-  margin-top: auto; /* Push to the bottom*/
+  margin-top: auto; 
   margin-bottom: 10px;
-  align-self: flex-end; /* Align at the end of the container*/
-  justify-content: end;
-  vertical-align: end; 
+  align-self: center; 
+  justify-content: center;
+  vertical-align: centre; 
 } 
 
 
 .billDetails {
   display: flex;
   color: whitesmoke;
+}
+
+
+.reservationPage{
+  background-image: url("https://wallpapers.com/images/hd/aesthetic-black-and-white-1920-x-1080-background-17nhnsar5sbi2z93.jpg");
+  background-size: cover;
+  background-position: center;
+  color: antiquewhite;
+}
+
+.reservationPage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: -1;
 }

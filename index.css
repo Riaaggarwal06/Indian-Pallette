@@ -1,13 +1,45 @@
 /* css of Discover Story on Home page */
+
 .homePage {
-  background-color: black;
-  padding-left: 30px;
-  padding-right: 30px;
+  background-image: url("https://images8.alphacoders.com/134/1347727.png");
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
 }
 
+.homePage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: -1;
+}
+.homeContent{
+  padding: 30px 10px 0px;
+}
+.story{
+  margin: 30px 10px;
+  padding: 10px;
+  background-color: rgba(226, 209, 186, 0.60)
+  
+}
 .headOfStory {
   color: green;
   font-size: 24px;
+}
+.storyText{
+  color: rgb(35, 24, 13);
+}
+
+.carousel slide{
+ padding: 10px; 
+}
+
+.row mt-5{
+  margin: 10px;
 }
 
 /* .storyText {
@@ -129,7 +161,7 @@ footer {
 .description {
   font-family: "Times New Roman", sans-serif;
   font-size: 18px;
-  color: #555;
+  color: bisque;
 }
 
 .reservation {

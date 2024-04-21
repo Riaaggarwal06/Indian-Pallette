@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="homePage">
+<body class="homePage">
+  <div class="homeContent">
     <!-- navbar starts-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
@@ -30,8 +30,8 @@
               <a class="nav-link" aria-current="page" href="./reservation.html">Reservation</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./menu.html" onclick="navigateToPage('./menu.html')" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="./menu.html" onclick="navigateToPage('./menu.html')"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -133,13 +133,14 @@
         </h3>
         <p class="description">Taste the best of our elaborate spread that has been our customer’s favorite made with
           only the best and the freshest ingredients.</p>
+        <p class="description">Click on the dish to order.</p>
       </div>
     </div>
     <div id="carouselFeaturedMenu" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="d-flex justify-content-between align-items-center"
-            style="margin-right: 150px; margin-left: 150px">
+          style="margin-right: 200px; margin-left: 200px">
             <a href="./menu.html#paneerbuttermasala">
               <img src="https://t4.ftcdn.net/jpg/05/84/68/27/360_F_584682773_WiNj3mhbOmt6c4RyvQXI37r8F8Tzrckx.jpg"
                 class="d-block mx-3" style="width: 300px; height: 200px" alt="..." />
@@ -157,7 +158,7 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-between align-items-center"
-            style="margin-right: 150px; margin-left: 150px">
+            style="margin-right: 200px; margin-left: 200px">
             <a href="./menu.html#plaindosa">
               <img
                 src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -177,7 +178,7 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-between align-items-center"
-            style="margin-right: 150px; margin-left: 150px">
+            style="margin-right: 200px; margin-left: 200px">
             <a href="./menu.html#garlicnaan">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVsohvUzQJ0AdfBhB8wvUzWb1AgonRQvpZN8fvbQFJ3w&s"
@@ -197,7 +198,7 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-between align-items-center"
-            style="margin-right: 150px; margin-left: 150px">
+            style="margin-right: 200px; margin-left: 200px">
             <a href="./menu.html#coldcoffee">
               <img
                 src="https://media.istockphoto.com/id/673742908/photo/iced-caramel-latte-coffee-in-a-tall-glass.jpg?s=612x612&w=0&k=20&c=L5vH2S7jFqzOM8qGIK-iLKrUfSGGGf68ZPmR5xrdAKU="
@@ -228,16 +229,19 @@
     <!-- discover our story section -->
     <div class="story">
       <p class="headOfStory">Discover our Story</p>
-      <p class="storyText">
-        Step into Indian Palette, where every dish tells a story and every flavor paints a picture of India's rich
-        culinary heritage. Nestled in the heart of the city, Indian Palette is not just a restaurant; it's a culinary
-        journey that transports you to the diverse landscapes and vibrant streets of India.
-
-        At Indian Palette, we pride ourselves on curating an exquisite menu that showcases the myriad flavors of India,
-        from the fiery spices of North India to the subtle aromas of South Indian delicacies. Our chefs, masters of
-        their craft, infuse each dish with passion and authenticity, ensuring that every bite is a celebration of
-        India's culinary diversity.
-      </p>
+      <div class="storyText">
+        <p>
+          Step into Indian Palette, where every dish tells a story and every flavor paints a picture of India's rich
+          culinary heritage. Nestled in the heart of the city, Indian Palette is not just a restaurant; it's a culinary
+          journey that transports you to the diverse landscapes and vibrant streets of India.</p>
+        <p>
+          At Indian Palette, we pride ourselves on curating an exquisite menu that showcases the myriad flavors of
+          India,
+          from the fiery spices of North India to the subtle aromas of South Indian delicacies. Our chefs, masters of
+          their craft, infuse each dish with passion and authenticity, ensuring that every bite is a celebration of
+          India's culinary diversity.
+        </p>
+      </div>
       <button class="read-more-btn">Read More</button>
     </div>
   </div>
@@ -268,6 +272,7 @@
     </div>
   </footer>
   <!-- footer ends -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

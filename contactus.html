@@ -1,158 +1,241 @@
 <html>
+  <head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <title>About Us</title>
-  <link rel="stylesheet" href="index.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-</head>
-
-<body>
-  <!-- navbar starts-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">The Indian Pallette</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="./index.html"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./about.html"
-              >About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              aria-current="page"
-              href="./reservation.html"
-              >Reservation</a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./menu.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <body>
+    <!-- navbar starts-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">The Indian Pallette</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./reservation.html"
+                >Reservation</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./menu.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Menu
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#appetizers')">Appetizers</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#southIndian')">South Indian</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#curry')">Curry</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#breads')">Breads</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#rice')">Rice</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#noodles')">Noodles</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#desserts')">Desserts</a></li>
-              <li><a class="dropdown-item" href="#" onclick="navigateToPage('./menu.html#beverages')">Beverages</a></li>
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#appetizers')"
+                    >Appetizers</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#southIndian')"
+                    >South Indian</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#curry')"
+                    >Curry</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#breads')"
+                    >Breads</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#rice')"
+                    >Rice</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#noodles')"
+                    >Noodles</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#desserts')"
+                    >Desserts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="navigateToPage('./menu.html#beverages')"
+                    >Beverages</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- start of contact info -->
+    <div class="container_contact">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="display-4" style="color:wheat">Contact Us</div>
+        </div>
+      </div>
+      <div class="ver_box1">
+        <div class="ver_box11">
+          <div class="ourinfo">
+            <h6 class="addressTitle">Our Address</h6>
+            42 Elm Street, Springfield, IL
+          </div>
+          <div class="ourinfo">
+            <h6 class="followTitle">Follow Us</h6>
+            <ul class="follow">
+              <li>
+                <img
+                  class="XNo5Ab"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD30lEQVR4AayShW4cMRCGLQgzHArKDK9xor5KnyDMSZmZmZmZRWWuKMy8e3y7U8/KvXG6PlR+6dM3Wtv/tElYulnzHXI918HnvQZ7PNfgGfdvz1XQEJzFtz14B++y+crCO+D2XoG97ssw475swhwuGWSOK26T3zX24luWbZbehTxe1uS+YOiuCzGwOB+3mA2yAvcFU8cO7Mrsf30R3Lz4nfMcL+eglZyNkm3QGXZhJ0snzrOw3nE61uc4zQs4wmKOxC3PaIszZA4/I2On6zSsY8ni4P9Kx6loX/WJMCCOk5G47dCZ+r79HLtxR8LfueN45F318TDEORYiW4TJHBcvbf8QhT/TJoRiJkQME2bCJvRpJnwaM8TbuX24Q/k3wS82VR0JwRwOB8nSjF5xJgRvhgxIEtEj3kngLibHcQzc1YdDetWhICSj8iD5UW8MUsX+PoBGdNzJ/qXqQHBv5f4AVHCEBX4yp1LMG26EIJ2I+2hpFn18J8OsuQi5lXv9MxV7/ZAul35HIY0k7cCduJtV7tN95bt0sNgdt5g1sjR/GrX/+E9+j8DyI35xV7eh6q/cpftY2Q5tDwfSoVxYj5jwf5Yf4qV0j+bknXtY2bbZZxxIh9KtlkERfjaD52QFcgdSvl17xkq3zP4u3TwDSAlZAZ2pgmeZgrtZ6aZpraRrGpR0kuVZFTpXv1eBu1lpx5RW3DEFFu1kmWzSM21AiehC04wWc/uUxorbpn4XtU6CiuLWKcvZ5HVPxN7ZQkZwNytqnnxW1DwBSGETWSabnPsSkjuV4G5W2DC+hwPJyCZdL/22ngLJYt7DihonfAW1Y2BRR5bJJhtvaeL9OFoJ7mZrGiC3sHb8b6vlcdswFATRL2ZCDagAX12H+3DOOWe7A8d2fFQZlsRMXpzu6z8kVnGdPcDgDbRJ5InP/nFB3lFOTMlck1TVuW8gD8wzcRO3FeQfFvfeQUbeQU5M2K0yOGBJXlVjcmaO1HFTsernecPZTd/c3ZQ0CeTM7M+S3L0MNWbpT/a94abql7ebXDrburidECiZa5LsspZUZO+kzNI2Z31r9JPsmlx7M2namzHZG7J1vaQkp6qBff09csYN3FKS6jt5w1mPA2stos8sCb/b6zFzIPMcduOG+kzORjpurUaBtRKRuRwSsz8LqnpWQuaoV8MAu9V3VF/MG9Zi2DQXAxrwUlhSENeZA7aWwyY/+bc1tkKu/hOXxkLwZswHVLlTUlINNW0mjFnswC71W+FtGLOd+9ps+7k2qw/MtEmSrlNZB+c6z5jBrPo3nZNjzXQm1FTrjgSp6dYDakr3oFd9U+9y1lO9tTZT6gAAAABJRU5ErkJggg=="
+                  style="height: 30px; width: 30px"
+                  alt=""
+                  data-csiid="9"
+                  data-atf="1"
+                />
+              </li>
+              <li>
+                <img
+                  class="XNo5Ab"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABOFBMVEVHcExxF/13F/1zFf2AFv2MCu+iBOmyAuLEAd7SANraBMzwHpedI+XeANfmANHmAr+PF/6fD/vxAL7qArV7GP21FvnRVurnZ+P2Z9roQeDzGtXzB8v7AqvWiPn+7fn////7ftv/A7z0BKH3v/H+3fT+ruj+AJr/9/r/RcD/bMDKFff/Bo3iG+r8GrX/AIH+H5r/yeP+BHj/t9n/V5r+Am7+H37+BGT/ssX/Imz/RXv/ucz+e4z+JFT/XI3/MGL+LUf/u7f/yc7/Alr+OUf+MSz+QzT+R0T+iHD+SRj+VzH+WQX+AkL+c2L/0sT+aCX+cBL/7+j+aQL+eRv/oUX/fwL+iBD/wXz+jgD/3rr/1rn+dgz+nAP9FpT+lw7+qgH+tQD+vQD/w1f9kwf/xAD9PFn9ogj/ywD9uAfgLZLBAAAAaHRSTlMAW9H+////////xEsC///N////zFz/////////////////uP////7///////////7////////////////////////////////////////////////////////F/7VQ///+/87/vsj/uqL0GQwAAAHcSURBVHgBRMlFehwxEEDhV1VS04yZ7U04m+AmcBjfLLscJ4xLHyA0YGqSlJ7P9MT6BRC52EEQuDjlFITx2eWvXJsDQWYIKgJj4VQW5gBJAg75K5vTgZDTFUEu/kUEzqGaiC6DMBbhpqQyoyKTNYD1Hp+Ui6J0ZH1HhXNA0RfzyRIZl5WprroK3BZwwvx0aUGdB87HCIN5VBUVP9i468ZLxWLv+pg6vJmDaSiSW2eyIRNg84/HxfVJmTD3DxFWGmWjrosRpxMNGr3iIqYbG7IGK5lKvZE3jVuTynsDzHRoD3xpxaTQvIKumGBWgCouM9bPKEisJg0VTV4X0aBqQEuXQ2kGlmVmZCtgCoxBJfeAz0b8NQbWI7wOAKCZMgbn9E6tItG1HFTKRQ4jgSYpiiPu6BFJW1fW9J7oDFWWgpf0MH09YnB6yIEYnIJhLhqkpw3aC4OuUJ4QlDzX55/Um5m4Ue6dmXr59LwkBM0xy/ieVNV7zSSTZMU3fs8UNBomr+v3jQx5X1XmB7tdgnNu1JqDl+0nbnp+HpLp+WM5bB0mIMJFc/ouSgjd+U99O1qYONOhFEMonPcZCZ6eGp9eRcSwhWkSRCIxKnfeIMBh1WRcFOhTaENo/096OTA7AACDzKODDThakgAAAABJRU5ErkJggg=="
+                  style="height: 30px; width: 30px"
+                  alt=""
+                  data-csiid="9"
+                  data-atf="1"
+                />
+              </li>
             </ul>
-        </li>
-        
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- navbar ends -->
-
-  <!-- start of contact info -->
-  <div class="container_contact">
-    <div class="ver_box1">
-
-      <div class="ver_box11">
-        <div class="ourinfo">
-          <h6 class="addressTitle">Our Address</h6>
-          34 Karl Marx Sarani, Kidderpore, Kolkata
+          </div>
         </div>
-        <div class="ourinfo">
-          <h6 class="followTitle">Follow Us</h6>
-          <ul class="follow">
-            <li>Fb</li>
-            <li>Insta</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="ver_box12">
-        <div class="ourinfo">
-          <h6 class="emailTitle">Email Id:</h6>
-          info@indiarestaurant.in
+        <div class="ver_box12">
+          <div class="ourinfo">
+            <h6 class="emailTitle">Email Id:</h6>
+            info@theindianpallette.in
+          </div>
+          <div class="ourinfo">
+            <h6 class="callTitle">Call Us Now</h6>
+            <ul class="callNo">
+              <li>+91 8481848484</li>
+              <li>+91 8420533005</li>
+            </ul>
+          </div>
         </div>
-        <div class="ourinfo">
-          <h6 class="callTitle">Call Us Now</h6>
-          <ul class="callNo">
-            <li>+91 8481848484</li>
-            <li>+91 8420533005</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="ver_box13">
-        <div class="ourinfo">
-          <h5 class="timeTitle">Opening Times</h5>
-          <ul class="timings">
-            <li><span>Mon:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Tue:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Wed:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Thu:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Fri:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Sat:</span><span> 11:00 AM - 11:00 PM</span></li>
-            <li><span>Sun:</span><span> 11:00 AM - 11:00 PM</span></li>
-          </ul>
+        <div class="ver_box13">
+          <div class="ourinfo">
+            <h5 class="timeTitle">Opening Times</h5>
+            <ul class="timings">
+              <li><span>Mon:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Tue:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Wed:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Thu:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Fri:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Sat:</span><span> 11:00 AM - 11:00 PM</span></li>
+              <li><span>Sun:</span><span> 11:00 AM - 11:00 PM</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- end of contact info -->
+    <!-- end of contact info -->
 
-  <!-- footer of page start -->
-  <footer class="fixed-bottom">
-    <div class="footerContent">
-      <div class="horizontal-section">
-        <div class="headings">Our Company</div>
-        <div class="vertical-section">
-          <a href="./about.html">About Us</a>
+    <!-- footer of page start -->
+    <footer class="fixed-bottom">
+      <div class="footerContent">
+        <div class="horizontal-section">
+          <div class="headings">Our Company</div>
+          <div class="vertical-section">
+            <a href="./about.html">About Us</a>
+          </div>
+          <div class="vertical-section">
+            <a href="./contactus.html">Contact Us</a>
+          </div>
         </div>
-        <div class="vertical-section">
-          <a href="./contactus.html">Contact Us</a>
+        <div class="horizontal-section">
+          <div class="headings">Order</div>
+          <div class="vertical-section">
+            <a href="./reservation.html">Reservation</a>
+          </div>
+          <div class="vertical-section"><a href="./menu.html">Menu</a></div>
+        </div>
+        <div class="horizontal-section">
+          <div class="headings">Contact Us</div>
+          <div class="vertical-section">
+            <a href="./contactus.html">Contact Info</a>
+          </div>
+        </div>
+        <div class="horizontal-section">
+          <div class="headings">Follow Us</div>
+          <div class="vertical-section">Insta</div>
+          <div class="vertical-section">Facebook</div>
         </div>
       </div>
-      <div class="horizontal-section">
-        <div class="headings">Order</div>
-        <div class="vertical-section">
-          <a href="./reservation.html">Reservation</a>
-        </div>
-        <div class="vertical-section"><a href="./menu.html">Menu</a></div>
-      </div>
-      <div class="horizontal-section">
-        <div class="headings">Contact Us</div>
-        <div class="vertical-section">
-          <a href="./contactus.html">Contact Info</a>
-        </div>
-      </div>
-      <div class="horizontal-section">
-        <div class="headings">Follow Us</div>
-        <div class="vertical-section">Insta</div>
-        <div class="vertical-section">Facebook</div>
-      </div>
-    </div>
-  </footer>
-  <!-- footer ends -->
-  <script src="index.js"> </script>
-</body>
-
+    </footer>
+    <!-- footer ends -->
+    <script src="index.js"></script>
+  </body>
 </html>

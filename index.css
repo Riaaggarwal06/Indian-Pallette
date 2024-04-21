@@ -22,17 +22,19 @@
 }
 .story{
   margin: 30px 10px;
-  padding: 10px;
-  background-color: rgba(226, 209, 186, 0.60) 
+  padding: 20px;
+  background-color: rgba(226, 209, 186, 0.60) ;
+  
 }
 .headOfStory {
   font-family: "Sofia", sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
-  color: greenyellow;
+  color: #65451F;
 }
 .storyText{
   color: rgb(35, 24, 13);
+  font-size: 20px;
 }
 
 .row mt-5{
@@ -44,7 +46,7 @@
   } */
 
 .read-more-btn {
-  background-color: red;
+  background-color: rgb(51, 51, 51);
   color: white; /* Set font color to white */
   border-radius: 5px; /* Set border radius to make it somewhat rounder */
   padding: 10px 20px; /* Add padding for better appearance */
@@ -110,7 +112,8 @@ footer {
   z-index: -1;
 }
 .about-section {
-  padding: 50px 0;
+  padding-bottom: 50px;
+  padding-top:0px;
 }
 
 .about-img {
@@ -124,6 +127,7 @@ footer {
 }
 .row {
   margin: 20px;
+  margin-top: 5px;
 }
 
 .storyTitle {
@@ -134,6 +138,7 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
 }
 
 .ftmenu{
@@ -187,6 +192,7 @@ footer {
   justify-content: center;
   align-items: center; /*Added alignment to center*/
   /* margin-left: 30px; */
+  background-image: url("https://images3.alphacoders.com/210/210105.jpg")
 }
 
 .ver_box1 {
@@ -202,24 +208,32 @@ footer {
 .ver_box12,
 .ver_box13 {
   padding: 20px 30px;
-  margin: 40 px;
-}
-
-.ourinfo {
-  margin: 10px;
-  margin-bottom: 40 px;
-}
-
-.ver_box13 {
-  margin-left: 30px;
-  background-color: rgb(40, 29, 45);
-  color: azure;
+  margin: 50px 30px;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(222, 199, 233);
+  color: black;
   border: solid;
   border-radius: 5px;
   border-style: outset;
   border-color: rgb(212, 179, 96);
   border-width: 5px;
-  padding: 50px 20px;
+  font-size: 20px;
+}
+
+.ourinfo {
+  margin: 10px;
+  margin-bottom: 40 px;
+  padding: 20px;
+}
+
+.addressTitle,
+.followTitle,
+.emailTitle,
+.callTitle,
+.timeTitle {
+  font-size: 30px;
 }
 
 .foodType {
@@ -501,3 +515,4 @@ footer {
 #carouselFeaturedMenu{
   height: 300px;
 }
+

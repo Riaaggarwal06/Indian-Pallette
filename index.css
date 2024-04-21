@@ -61,20 +61,23 @@ footer {
   margin-top: 30px;
   bottom: 0;
   width: 100%;
-  background-color: #7797b2;
-  padding: 10px;
+  background-color: rgb(162, 157, 147);
+    padding: 10px;
   text-align: center;
 }
 
 .footerContent {
-  display: flex;
+   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
   align-items: flex-start;
   font-size: 18px;
+  color: rgb(67, 59, 50);
 }
-
+.footerContent a {
+  color: rgb(109, 88, 64);
+}
 .horizontal-section {
   display: flex;
   flex-direction: column;

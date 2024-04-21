@@ -78,6 +78,8 @@ footer {
 .footerContent a {
   color: rgb(109, 88, 64);
   text-decoration: none;
+  padding: 10px 20px; /* Adjust padding to increase the box size */
+  border-radius: 20px;
   transition: color 0.3s, box-shadow 0.3s; /* Adding transition effect */
 }
 
@@ -85,6 +87,7 @@ footer {
   color: rgb(0, 0, 0); /* Changing color on hover */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adding shadow effect on hover */
 }
+
 
 
 .horizontal-section {
@@ -224,7 +227,7 @@ footer {
   border: 2px solid black;
   height: 400px;
   width: 400px;
-  background-color: rgb(222, 199, 233);
+  background-color: rgb(233, 211, 243);
   color: black;
   border: solid;
   border-radius: 5px;

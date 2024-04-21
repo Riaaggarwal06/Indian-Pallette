@@ -23,8 +23,7 @@
 .story{
   margin: 30px 10px;
   padding: 10px;
-  background-color: rgba(226, 209, 186, 0.60)
-  
+  background-color: rgba(226, 209, 186, 0.60) 
 }
 .headOfStory {
   color: green;
